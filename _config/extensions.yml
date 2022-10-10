@@ -1,0 +1,19 @@
+SilverStripe\UserForms\Model\EditableFormField:
+  extensions:
+    - OP\Extensions\EditableFormField
+
+SilverStripe\UserForms\Model\EditableFormField\EditableOption:
+  extensions:
+    - OP\Extensions\EditableOption
+
+SilverStripe\UserForms\Model\EditableFormField\EditableMultipleOptionField:
+  extensions:
+    - OP\Extensions\EditableMultipleOptionField
+
+SilverStripe\UserForms\Model\Submission\SubmittedForm:
+  extensions:
+    - OP\Extensions\SubmittedForm
+
+SilverStripe\UserForms\Model\UserDefinedForm:
+  extensions:
+    - OP\Extensions\UserDefinedForm
