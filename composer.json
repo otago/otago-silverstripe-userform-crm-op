@@ -1,5 +1,5 @@
 {
-    "name": "otago/silverstripe-userform-op-crm",
+    "name": "otago/silverstripe-userform-crm-op",
     "description": "A skeleton for SilverStripe modules.",
     "type": "silverstripe-vendormodule",
     "keywords": [
