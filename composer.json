@@ -8,7 +8,8 @@
     ],
     "license": "BSD-3-Clause",
     "require": {
-        "php": ">=8.3"
+        "php": ">=8.3",
+        "microsoft/microsoft-graph": "^2.18"
     },
     "autoload": {
         "psr-4": {
@@ -29,7 +30,9 @@
     "config": {
         "allow-plugins": {
             "composer/installers": true,
-            "silverstripe/vendor-plugin": true
+            "silverstripe/vendor-plugin": true,
+            "php-http/discovery": true,
+            "tbachert/spi": true
         }
     }
 }
