@@ -17,12 +17,12 @@ class CRMService
         $this->resource = Environment::getEnv('CRM_RESOURCE');
         $guzzle = new Client();
         $result = $guzzle->post(
-                Controller::curr()->join_links([
-                    "https://login.microsoftonline.com/",
-                    Environment::getEnv("CRM_TENANT"),
-                    "oauth2/token"
-                ]),
-                [
+            Controller::curr()->join_links([
+                "https://login.microsoftonline.com/",
+                Environment::getEnv("CRM_TENANT"),
+                "oauth2/token"
+            ]),
+            [
                 'form_params' => [
                     'client_id' => Environment::getEnv("CRM_CLIENT_ID"),
                     'client_secret' => Environment::getEnv("CRM_CLIENT_SECRET"),
